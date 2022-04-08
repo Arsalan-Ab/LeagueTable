@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/AndroidkotlinProject/LeagueTable/app/src/main/res/layout/activity_main.xml" value="0.12360688956433637" />
+        <entry key="..\:/AndroidkotlinProject/LeagueTable/app/src/main/res/drawable/ic_baseline_table_rows_24.xml" value="0.1765" />
+        <entry key="..\:/AndroidkotlinProject/LeagueTable/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/AndroidkotlinProject/LeagueTable/app/src/main/res/layout/fragment_search_player.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidkotlinProject/LeagueTable/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25025641025641027" />
       </map>
     </option>
   </component>

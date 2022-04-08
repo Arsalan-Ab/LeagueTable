@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/football_nav_graph"
+    app:startDestination="@id/tableFragment">
+
+    <fragment
+        android:id="@+id/searchPlayerFragment"
+        android:name="com.example.leaguetable.ui.fragments.SearchPlayerFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search_player" />
+    <fragment
+        android:id="@+id/tableFragment"
+        android:name="com.example.leaguetable.ui.fragments.TableFragment"
+        android:label="Tables"
+        tools:layout="@layout/fragment_table" />
+</navigation>

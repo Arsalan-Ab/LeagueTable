@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tableFragment"
+        android:icon="@drawable/ic_table_list"
+        android:title="Tables" />
+
+    <item
+        android:id="@+id/searchPlayerFragment"
+        android:icon="@drawable/ic_search"
+        android:title="Search Player" />
+</menu>
