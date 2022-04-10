@@ -1,5 +1,13 @@
 <resources>
     <string name="app_name">LeagueTable</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="leagues_name">
+        <item>Premier League</item>
+        <item>Bundesliga</item>
+        <item>Serie A</item>
+        <item>La Liga</item>
+        <item>French League</item>
+    </string-array>
+
 </resources>
