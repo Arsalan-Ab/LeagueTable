@@ -1,5 +1,6 @@
 package com.example.leaguetable.api
 
+import com.example.leaguetable.model.PlayerResponse
 import com.example.leaguetable.model.TableResponse
 import retrofit2.Response
 import retrofit2.http.GET
@@ -15,4 +16,9 @@ interface FootballApi {
         season: String = "2021-2022"
     ): Response<TableResponse>
 
+    @GET("/api/v1/json/2/searchplayers.php?")
+    suspend fun getPlayerByName(
+        @Query("p")
+        playerName: String
+    ): Response<PlayerResponse>
 }
