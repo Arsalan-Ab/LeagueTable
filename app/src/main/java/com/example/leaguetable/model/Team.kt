@@ -1,6 +1,6 @@
 package com.example.leaguetable.model
 
-data class Table(
+data class Team(
     val dateUpdated: String,
     val idLeague: String,
     val idStanding: String,

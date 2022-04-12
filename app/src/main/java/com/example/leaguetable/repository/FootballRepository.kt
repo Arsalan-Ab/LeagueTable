@@ -6,11 +6,11 @@ import javax.inject.Inject
 class FootballRepository @Inject constructor(
     val api: FootballApi
 ) {
-    suspend fun getLeagueTable(leagueId: String, season: String) {
+    suspend fun getLeagueTable(leagueId: String, season: String) =
         api.getLeagueTable(leagueId, season)
-    }
 
-    suspend fun getPlayerByName(playerName: String) {
+
+    suspend fun getPlayerByName(playerName: String) =
         api.getPlayerByName(playerName)
-    }
+
 }
