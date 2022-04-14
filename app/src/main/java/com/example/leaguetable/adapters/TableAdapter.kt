@@ -55,20 +55,18 @@ class TableAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
             val team = differ.currentList[position - 1]
             tableHolder.listBinding.apply {
                 txtRank.text = team.intRank
-                txtTeam.text = team.idTeam
+                txtTeam.text = team.strTeam
                 txtMp.text = team.intPlayed
                 txtWin.text = team.intWin
                 txtDraw.text = team.intDraw
                 txtLoss.text = team.intLoss
-                txtGoalFor.text = team.intGoalsFor
-                txtGoalAgainst.text = team.intGoalsAgainst
                 txtPoints.text = team.intPoints
             }
         }
     }
 
     override fun getItemCount(): Int {
-        return differ.currentList.size
+        return differ.currentList.size + 1
     }
 
     override fun getItemViewType(position: Int): Int {
